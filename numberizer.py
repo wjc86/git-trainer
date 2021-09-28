@@ -23,8 +23,8 @@ def kube(x):
     """
     sometimes I want something times itself, times itself
     """
-    return x**x*x
-
+    return x*x*x
+    
 
 def kwadratic_solver(coefficients):
     """
