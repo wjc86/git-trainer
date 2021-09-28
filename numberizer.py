@@ -11,22 +11,22 @@ Operations in Python:
     exponentiation: a**b (returns a to the b power)
 
 """
-import numpy as np
 
+import numpy as np #using numpy not math for complex sqrt
 def skware(x):
     """sometimes I want to get something times itself
     """
-    a= x**2
+    a= x*2
     return a
 
-def cube(x):
+def kube(x):
     """
     sometimes I want something times itself, times itself
     """
-    return x**3
+    return x**x*x
     
 
-def quadratic_solver(coefficients):
+def kwadratic_solver(coefficients):
     """
     coefficients is a list of length 3, [a,b,c],
     where a,b,c correspond to ax^2+bx+c=0
@@ -43,16 +43,28 @@ def quadratic_solver(coefficients):
 
     x1 = lead+tail
     x2 = lead-tail
-    return x1 #How do I return both x1 and x2
+    return x1 #How do I return both x1 and x2??? I sure wish I could code
 
-def calc_circumference(r):
+def sircumference(r):
     """I need the circumference of a circle, given its radius, r
     """
     return np.pi*r**2
 
-def calc_area(r):
+def sircle_area(r):
     """I need the area of a circle, given its radius, r
     """
     return np.pi*r*2
-#branchcheck
-print(cube(2))
+
+
+
+
+if __name__ == "__main__":
+    """if you run this file directly, it'll do this
+    """
+    print('Testing Numberizer')
+    print('skware: 5^2=%0.2f'%(skware(5)))
+    print('kube: 3^3=%0.2f'%(kube(3)))
+    print('kwadratic_solver: roots of x^2+0x+9=(%s)'%(kwadratic_solver([1,0,9])))
+    print('sircumference: For circle of radius 9, the circumference is %0.2f'%(sircumference(9)))
+    print('sircle_area: For circle of radius 4, the area is %0.2f'%(sircle_area(4)))
+

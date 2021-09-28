@@ -8,10 +8,10 @@ $$$$$$$$/ $$/   _______     $$$$$$$$/______    _______     $$$$$$$$/______    __
   $$ |   $$ |$$       |       $$ |$$    $$ |$$       |       $$ |$$    $$/ $$       |
   $$/    $$/  $$$$$$$/        $$/  $$$$$$$/  $$$$$$$/        $$/  $$$$$$/   $$$$$$$/
 
-Welcome to the worst way to play tic-tac-toe
+Welcome to the worst way to play tic-tac-toe.
 1. Create a new branch for your game.
-2. Create a branch from your branch, make your move, then create a pull request, and merge your move onto the board
-3. Get someone else to branch from your branch, make their move, and pull request it in
+2. Create a branch from your branch, make your move, then create a pull request, and merge your move back onto the first branch you made.
+3. Get someone else to branch from your branch, make their move, and pull request it in.
 4. Keep playing until the game is over!
 
 
