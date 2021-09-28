@@ -16,7 +16,7 @@ import numpy as np #using numpy not math for complex sqrt
 def skware(x):
     """sometimes I want to get something times itself
     """
-    a= x*2
+    a= x**2
     return a
 
 def kube(x):
@@ -24,7 +24,7 @@ def kube(x):
     sometimes I want something times itself, times itself
     """
     return x**x*x
-    
+
 
 def kwadratic_solver(coefficients):
     """
@@ -67,4 +67,3 @@ if __name__ == "__main__":
     print('kwadratic_solver: roots of x^2+0x+9=(%s)'%(kwadratic_solver([1,0,9])))
     print('sircumference: For circle of radius 9, the circumference is %0.2f'%(sircumference(9)))
     print('sircle_area: For circle of radius 4, the area is %0.2f'%(sircle_area(4)))
-
